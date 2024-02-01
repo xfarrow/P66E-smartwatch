@@ -1,5 +1,7 @@
 # P66E
-Reverse engineering a P66E smartwatch. Using the [Gadgetbridge's guide](https://codeberg.org/Freeyourgadget/Gadgetbridge/wiki/BT-Protocol-Reverse-Engineering).
+Reverse engineering a P66E smartwatch. This projects aims at writing its technical documentation of operation and at developing a piece of software able to communicate with it without the need to use its official app.
+
+Using the [Gadgetbridge's guide](https://codeberg.org/Freeyourgadget/Gadgetbridge/wiki/BT-Protocol-Reverse-Engineering).
 
 ### Other names
 The P66E comes with different commercial names such as
