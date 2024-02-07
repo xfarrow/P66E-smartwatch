@@ -9,4 +9,4 @@ Characteristic: ```DeviceName```
 Example output: ```P66E(ID-81DF)``` (ASCII)
 
 ## More
-Other GATT characteristic seem to return unreadable data. The smartwatch does not follow the standard GATT specification. More analysis is needed.
+Other GATT characteristics seem to return unreadable data. Their purpose is unknown and hence the smartwatch does not follow the standard GATT specification. More analysis is needed.
