@@ -1,5 +1,5 @@
 # P66E
-Reverse engineering a P66E smartwatch. This projects aims at writing its technical documentation of operation and at developing a piece of software able to communicate with it without the need to use its official app.
+Reverse engineering a P66E smartwatch. This projects aims at writing its [technical documentation](https://github.com/xfarrow/P66E-smartwatch/blob/main/Documentation/Documentation.md) of operation and at developing a piece of software able to communicate with it without the need to use its official app.
 
 Using the [Gadgetbridge's guide](https://codeberg.org/Freeyourgadget/Gadgetbridge/wiki/BT-Protocol-Reverse-Engineering).
 
