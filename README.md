@@ -11,4 +11,5 @@ The P66E comes with different commercial names such as
 - Popglory P66
 
 ## What we know so far
-Unfortunately this device does not adhere to the Bluetooth GATT specification. This will make the process of reverse engineering harder, as we need to sniff the traffic between the P66E and the companion app (Gloryfit).
+* Unfortunately this device does not adhere to the Bluetooth GATT specification. This will make the process of reverse engineering harder, as we need to sniff the traffic between the P66E and the companion app (Gloryfit).
+* A decompilation of the GloryFit application shows it uses the libjiagu library, known to be used to make the process of reverse engineering harder. Nonethless the undersigned discovered references to the MQTT protocol, in particular the Paho MQTT library. This may suggest that the communication is performed with this protocol.
