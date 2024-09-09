@@ -1,12 +1,13 @@
 # How to communicate using the GATT protocol
 
 1. Install `bluez`: `sudo apt-get install bluez`
-2. Scan nearby devices `sudo hcitool lescan` and obtain MAC address
-3. Connect in interactive mode: `gatttool -b 78:02:B7:E7:81:DF -I`
-4. Start using GATT
+2. Scan nearby devices using `sudo hcitool lescan` and obtain the MAC address of your smartwatch
+3. Connect in interactive mode: `gatttool -b <MAC Address> -I`
+4. Use GATT
 
 **Example**
-`primary` list services
+
+Type `primary` to list services
 
 Output is: `attr handle: 0x0007, end grp handle: 0x000f uuid: 00001800-0000-1000-8000-00805f9b34fb` (GenericAccess service). 
 
