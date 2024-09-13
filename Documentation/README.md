@@ -9,4 +9,8 @@ Characteristic: ```DeviceName``` (UUID: 00002a00-0000-1000-8000-00805f9b34fb)
 Example output: ```50 36 36 45 28 49 44 2d 38 31 44 46 29 00``` which translates to "P66E(ID-81DF)"
 
 ## More
-Other GATT characteristics seem to return unreadable data. Their purpose is unknown and hence the smartwatch does not follow the standard GATT specification. More analysis is needed.
+Other GATT characteristics seem to return unreadable data. Their purpose is unknown and hence the smartwatch does not follow the standard GATT specification.
+
+For example the Appearance characteristic (UUID 00002a01-0000-1000-8000-00805f9b34fb) should return 0x004 indicating that's a watch. It instead returns 0x000.
+
+More analysis is needed.
